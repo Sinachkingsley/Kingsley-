@@ -1,0 +1,53 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": null,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "randomx": {
+        "init": -1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": false,
+        "asm": true,
+        "cn": [-1],
+        "rx": [-1]
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null
+    },
+    "donate-level": 5,
+    "donate-over-proxy": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "coin": "monero",
+            "url": "xmrpool.eu:5555",
+            "user": "YOUR_XMR_WALLET_ADDRESS",
+            "pass": "x",
+            "rig-id": "test",
+            "keepalive": true,
+            "enabled": true
+        }
+    ],
+    "print-time": 1800,
+    "retries": 1,
+    "retry-pause": 5,
+    "syslog": false,
+    "user-agent": null,
+    "watch": true
+}
